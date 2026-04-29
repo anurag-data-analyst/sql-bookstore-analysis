@@ -43,3 +43,6 @@ JOIN orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.name
 ORDER BY total_spent DESC
 LIMIT 3;
+
+## 🚀 Conclusion
+Used SQL queries to analyze data, identify patterns, and generate insights for better business decisions.
